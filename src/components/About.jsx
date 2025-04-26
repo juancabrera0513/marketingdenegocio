@@ -8,7 +8,7 @@ export default function About() {
           Tu éxito digital empieza aquí
         </h2>
         <p className="text-base md:text-lg text-gray-700 mb-4">
-          En <strong>MarketingDeNegocio.com</strong> ayudamos a negocios locales a alcanzar su máximo potencial en internet.
+          En <strong>MARKETINGDENEGOCIO.COM</strong> ayudamos a negocios locales a alcanzar su máximo potencial en internet.
         </p>
         <p className="text-base md:text-lg text-gray-700 mb-4">
           Más de 100 empresas ya confiaron en nuestro equipo para crear sitios modernos, rápidos y diseñados estratégicamente para atraer clientes.

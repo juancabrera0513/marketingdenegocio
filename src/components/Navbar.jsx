@@ -29,7 +29,7 @@ export default function Navbar({ scrollToTop }) {
           onClick={scrollToTop}
           className="text-xl font-bold text-blue-600 hover:text-blue-700 hover:underline transition"
         >
-          MarketingDeNegocio.com
+          MARKETINGDENEGOCIO.COM
         </button>
 
         {/* Mobile Menu Button */}

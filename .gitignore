@@ -1,0 +1,14 @@
+# Node
+node_modules/
+dist/
+build/
+.env
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.log
