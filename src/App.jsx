@@ -9,7 +9,6 @@ import Process from "./components/Process";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
-import FloatingIcons from "./components/FloatingIcons";
 import Footer from "./components/Footer"; // Importamos el Footer correctamente
 
 export default function App() {
@@ -38,9 +37,7 @@ export default function App() {
         <Navbar scrollToTop={scrollToTop} />
       </div>
 
-      {/* Floating Icons */}
-      <FloatingIcons />
-
+     
       {/* Contenido principal */}
       <div className="pt-24">
         <section id="home" data-aos="fade-in" className="relative z-30">
