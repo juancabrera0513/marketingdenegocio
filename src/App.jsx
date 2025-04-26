@@ -10,6 +10,7 @@ import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import FloatingIcons from "./components/FloatingIcons";
+import Footer from "./components/Footer"; // Importamos el Footer correctamente
 
 export default function App() {
   const [showButton, setShowButton] = useState(false);
@@ -101,12 +102,7 @@ export default function App() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-6 text-center text-sm space-y-2">
-        <p>© 2025 MarketingDeNegocio.com | Todos los derechos reservados</p>
-        <a href="/privacidad.html" className="text-blue-400 hover:underline">
-          Política de Privacidad
-        </a>
-      </footer>
+      <Footer />
 
       {/* Botón volver arriba */}
       {showButton && (
