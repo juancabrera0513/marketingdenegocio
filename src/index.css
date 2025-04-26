@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animaciones Personalizadas */
+
+@keyframes drift {
+  0%, 100% { transform: translate(0px, 0px); }
+  25% { transform: translate(6px, 4px); }
+  50% { transform: translate(2px, 8px); }
+  75% { transform: translate(-6px, 6px); }
+}
+.animate-drift {
+  animation: drift 12s ease-in-out infinite;
+}
+.animate-drift-slower {
+  animation: drift 18s ease-in-out infinite;
+}
+
+/* Animaciones de Glow por color */
+@keyframes glow-blue {
+  0%, 100% { box-shadow: 0 0 0px rgba(59, 130, 246, 0.5); }
+  50% { box-shadow: 0 0 15px rgba(59, 130, 246, 0.8); }
+}
+@keyframes glow-gray {
+  0%, 100% { box-shadow: 0 0 0px rgba(55, 65, 81, 0.5); }
+  50% { box-shadow: 0 0 15px rgba(55, 65, 81, 0.8); }
+}
+@keyframes glow-indigo {
+  0%, 100% { box-shadow: 0 0 0px rgba(99, 102, 241, 0.5); }
+  50% { box-shadow: 0 0 15px rgba(99, 102, 241, 0.8); }
+}
+@keyframes glow-pink {
+  0%, 100% { box-shadow: 0 0 0px rgba(236, 72, 153, 0.5); }
+  50% { box-shadow: 0 0 15px rgba(236, 72, 153, 0.8); }
+}
+@keyframes glow-green {
+  0%, 100% { box-shadow: 0 0 0px rgba(34, 197, 94, 0.5); }
+  50% { box-shadow: 0 0 15px rgba(34, 197, 94, 0.8); }
+}
+@keyframes glow-yellow {
+  0%, 100% { box-shadow: 0 0 0px rgba(234, 179, 8, 0.5); }
+  50% { box-shadow: 0 0 15px rgba(234, 179, 8, 0.8); }
+}
+
+/* Clases para activar glow en hover */
+.hover-glow-blue:hover { animation: glow-blue 1.5s infinite alternate; }
+.hover-glow-gray:hover { animation: glow-gray 1.5s infinite alternate; }
+.hover-glow-indigo:hover { animation: glow-indigo 1.5s infinite alternate; }
+.hover-glow-pink:hover { animation: glow-pink 1.5s infinite alternate; }
+.hover-glow-green:hover { animation: glow-green 1.5s infinite alternate; }
+.hover-glow-yellow:hover { animation: glow-yellow 1.5s infinite alternate; }
+
+@keyframes strong-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+}
+
+.animate-strong-pulse {
+  animation: strong-pulse 2s infinite;
+}
+
